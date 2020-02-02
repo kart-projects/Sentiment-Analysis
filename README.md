@@ -18,7 +18,7 @@ The python notebook file in this repo should run with Anaconda distribution of P
 
 To explore this project you can clone this repo via AWS SageMaker notebook instance and then work with SageMaker Project.ipynb.
 
-The notebook has great documentation explaining the training and deployment to create the web app. The project itself was completed as part of Udacity's Machine Learning Nanodegree program.
+The notebook has great documentation providing a step by step walkthrough on training, testing and deploying the sentiment analysis model and finally accessing the model endpoint using a web app. The project itself was completed as part of Udacity's Machine Learning Nanodegree program.
 
 ## Motivation<a name="motivation"></a>
 
@@ -26,16 +26,16 @@ AWS provides quiet a number of cloud services for Data Scientists and Machine Le
 
 ## Web App Architecture
 
-	A diagram showing the blocks that will be involved in this web app is below,
+A diagram showing the blocks that will be involved in this web app is below,
 	
-	![alt text](images/Web App Diagram.svg "Web App Architecture Diagram")
+![alt text](images/Web App Diagram.svg "Web App Architecture Diagram")
 	
 ## Files
 
 The main files in this repo that are required for running of the web app are briefly summarized below,
 
 1. **SageMaker Project.ipynb**
-     - This notebook file walksthrough the required steps to train, test and deploy the RNN-LSTM model to predict user sentiments (i.e. positive or negative) for a given movie review. Th notebook is complete and well documented as to how to naviagate from one cell to another. Thanks to Udacity for providing this notebook and clear documentation. As part of the project completion I only had to work on the TODO items in this notebook.
+     - This notebook file provides a step by step walkthrough to train, test and deploy the RNN-LSTM model to predict user sentiments (i.e. positive or negative) for a given movie review. The notebook is complete and well documented as to how to naviagate from one cell to another. Thanks to Udacity for providing this notebook and clear documentation. As part of the project completion I only had to work on the TODO items in this notebook.
 				
 2. **train.py**
      - This python script completes the training portion of the analysis. It contains the train function which was completed as part of the assignment.
@@ -51,9 +51,9 @@ All analysis and results are well documented with the attached SageMaker Project
 
 ## Example Screenshots
 
-	![alt text](images/NegativeReview.PNG "Positive Review")
+![alt text](images/PositiveReview.PNG "Positive Review")
 	
-	![alt text](images/NegativeReview.PNG "Negative Review")
+![alt text](images/NegativeReview.PNG "Negative Review")
 
 ## Licensing, Authors, Acknowledgements
 

@@ -28,7 +28,7 @@ AWS provides quiet a number of cloud services for Data Scientists and Machine Le
 
 A diagram showing the blocks that will be involved in this web app is below,
 	
-![alt text](images/Web_App_Architecture.PNG "Web App Architecture Diagram")
+![alt text](images/Web_App_Diagram.PNG "Web App Architecture Diagram")
 	
 ## Files
 
